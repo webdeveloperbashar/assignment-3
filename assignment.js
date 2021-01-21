@@ -13,19 +13,19 @@ function kilometerToMeter(kilometer) {
 
 
 // Budget Calculator
-function budgetCalculator(watch, mobile, laptop) {
+function budgetCalculator(watch, phone, laptop) {
   var totalPrice;
   if (watch < 0) {
     totalPrice = "Watch price cannot be negative";
-  }else if(mobile < 0){
-    totalPrice = "Mobile price cannot be negative";
+  }else if(phone < 0){
+    totalPrice = "Phone price cannot be negative";
   }else if(laptop < 0){
     totalPrice = "Laptop price cannot be negative";
   }else{
     var watch = watch * 50; // per watch price 50
-    var mobile = mobile * 100; // per mobile price 100
+    var phone = phone * 100; // per phone price 100
     var laptop = laptop * 500; // per laptop price 500
-    totalPrice = watch + mobile + laptop;
+    totalPrice = watch + phone + laptop;
   }
   return totalPrice;
 }
