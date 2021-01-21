@@ -10,8 +10,6 @@ function kilometerToMeter(kilometer) {
   }
   return meter;
 }
-var meter = kilometerToMeter(8);
-console.log(meter);
 
 
 // Budget Calculator
@@ -31,8 +29,6 @@ function budgetCalculator(watch, mobile, laptop) {
   }
   return totalPrice;
 }
-var totalPrice = budgetCalculator(10,30,11);
-console.log(totalPrice);
 
 // Hotel Cost
 function hotelCost(nightCount){
@@ -56,8 +52,6 @@ function hotelCost(nightCount){
     }
     return roomRent;
 }
-var roomRent = hotelCost(21);
-console.log(roomRent);
 
 // Mega Friend
 var names = ['Hasan', 'Mazharul', 'Sakil', 'Mohidul', 'Somrat', 'Riyad']
@@ -72,5 +66,3 @@ function megaFriend(friendNames){
     }
     return highestName;
 }
-var result = megaFriend(names)
-console.log(result);
